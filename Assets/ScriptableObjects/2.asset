@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicName: 2
   danceName: 2
-  notesConfig: {fileID: 0}
+  notesConfig: {fileID: 4900000, guid: 5058c26cc167c7440a40c6c3b4484ec5, type: 3}
   speed: 100
