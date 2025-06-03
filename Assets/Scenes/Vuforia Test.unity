@@ -643,7 +643,7 @@ MonoBehaviour:
           m_StringArgument: ButtonDisapear
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 605865250}
+      - m_Target: {fileID: 605865252}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
         m_Mode: 5
@@ -937,7 +937,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211666406}
         m_TargetAssemblyTypeName: DanceController, Assembly-CSharp
-        m_MethodName: SelectDance
+        m_MethodName: OnSelectedDance
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 2a53872d37d616a4386d37030223f0d5, type: 2}
@@ -1193,7 +1193,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211666406}
         m_TargetAssemblyTypeName: DanceController, Assembly-CSharp
-        m_MethodName: ActivateSelectedDance
+        m_MethodName: ActivateSelectDance
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2330,6 +2330,18 @@ MonoBehaviour:
   _onFinishSong:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 605865252}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: StopPlayback
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LaneContainerDissapear
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2018876490}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: Play
@@ -2805,7 +2817,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211666406}
         m_TargetAssemblyTypeName: DanceController, Assembly-CSharp
-        m_MethodName: SelectDance
+        m_MethodName: OnSelectedDance
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: ca1d7aaa32a4df44cbe8f50734b9fa6c, type: 2}
@@ -3716,7 +3728,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 211666406}
         m_TargetAssemblyTypeName: DanceController, Assembly-CSharp
-        m_MethodName: SelectDance
+        m_MethodName: OnSelectedDance
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 521b70e4dfdf88842ab5ec9f8af4ff24, type: 2}
@@ -4016,7 +4028,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 211666406}
         m_TargetAssemblyTypeName: DanceController, Assembly-CSharp
-        m_MethodName: ActivateSelectedDance
+        m_MethodName: ActivateSelectDance
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
