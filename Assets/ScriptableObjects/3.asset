@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   musicName: 3
-  danceName: 3
+  animationName: 3
   notesConfig: {fileID: 4900000, guid: 80654e5f98fbbce4e89389f1b7be99dc, type: 3}
-  speed: 100
+  speed: 200
